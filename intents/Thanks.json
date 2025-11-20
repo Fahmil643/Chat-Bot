@@ -1,0 +1,90 @@
+{
+  "id": "76066a3b-f559-4817-a650-80b32557394d",
+  "name": "Thanks",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "terimakasih kembali! jika ada yang bisa saya bantu lagi, silahkan beri tahu saya",
+            "sama-sama! senang bisa membantu anda :)"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thank you",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2d8816e4-1bdf-412f-8e88-bb730c063e0b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "thanks",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "32802482-2630-475d-96a9-bec799c7d210",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "makasih",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "23b8495a-a026-436d-b554-8748940399e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "terimakasih",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b19a5e6-a29e-45dd-a8c0-26ecda9561f2",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

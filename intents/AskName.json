@@ -1,0 +1,113 @@
+{
+  "id": "cd016bcc-940a-4ff2-9547-3a824b2857cf",
+  "name": "AskName",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "person",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$person",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "saya adalah chatbot assistent yang siap membantu anda"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "kamu siapa",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6dc61a81-11c2-4817-a30c-1ac2033e8bd8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "perkenalkan dirimu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5a04b2b8-5cf7-493f-84c6-e21fd641b1fc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nama ",
+          "userDefined": false
+        },
+        {
+          "text": "kamu",
+          "userDefined": false,
+          "alias": "person",
+          "meta": "@sys.person"
+        },
+        {
+          "text": " siapa",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6061a59-c556-46af-94c1-7865be340fda",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "siapa namamu?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a2a86d7-5252-4bba-9208-64badba2232f",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
